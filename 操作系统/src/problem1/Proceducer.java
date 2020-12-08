@@ -1,10 +1,12 @@
 package problem1;
 
 import java.util.Scanner;
+
 class Process{
     int empty = 1;
     int full = 0;
     int mutex = 1;
+    int n = 1000;
     String control;
     public Process(String S) {
         control = S;
@@ -35,5 +37,4 @@ public class Proceducer {
         p1.Judge();
         System.out.println("执行操作后进程剩余资源数为"+p1.empty+"占用进程为"+p1.full);
     }
-
 }
